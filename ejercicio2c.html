@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>P&aacute;gina HTML curso Master Full Stack es. REC010476</title>
+        </head>
+        <body>
+            <form action="mailto:jessica.loffredo.94@gmail.com" method="post">
+                <h3>Introduzca sus datos</h3>
+                <label>Nombre:</label>
+                <input name="nombre" type="text" tabindex="1"/>
+                <br><br>
+                <label>Apellidos:</label>
+                <input name="apellidos" type="text" tabindex="2"/>
+                <br><br>
+                <label>Direccion:</label>
+                <input name="direccion" type="text" tabindex="3"/>
+                <br><br>
+                <label>Contrase&ntilde;a:</label>
+                <input name="contrasena" type="password" tabindex="4"/>
+                <br><br>
+                <label>Selecionar sexo:</label><br>
+                Hombre<input name="sexo" type="radio" tabindex="5"/>
+                Mujer<input name="sexo" type="radio" tabindex="6"/>
+                <br><br>
+                <label>Estado civil:</label>
+                <select name="estado_civil" tabindex="7">
+                    <option value="soltero">Soltero/a</option>
+                    <option value="casado">Casado/a</option>
+                </select>
+               
+                <br><br>
+                <label>Selecione en que esta interesado:</label><br>
+                Programacion web <input name="check_pr" type="checkbox" tabindex="8">
+                Ofimatica <input name="check_of" type="checkbox" tabindex="9">
+                Dise&ntilde;o web <input name="check_dw" type="checkbox" tabindex="10">
+                <br><br>
+                Observaciones: <textarea cols="20" row="5" tabindex="11">escriba aqui sus observaciones</textarea>
+                <br><br>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Borrar"/>
+            </form>
+        </body>
+    </html>

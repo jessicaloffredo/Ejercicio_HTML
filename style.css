@@ -1,0 +1,64 @@
+#contenedor {
+    margin: 0 auto;
+    width: 770px;
+    height: 770px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+p {
+   text-align: justify;
+   padding: 10px; 
+}
+
+#cabecera {
+    background-color:purple;
+    height: 50px ;
+}
+
+#menu {
+    background-color:green;
+    height: 50px;
+}
+
+ul.menu {
+    clear: both;
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin:0;
+    padding: 0;
+
+}
+ul.menu li {
+    float: left;
+    border: 1px;
+    border-style: solid;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#contenido {
+    background-color:grey;
+    height: 500px ;
+}
+#pie {
+    background-color:orange;
+    height: 50px ;
+    float: left;
+    width: 100%;  
+    padding:0; 
+    margin:0;  
+}
+
+h1 {
+    color: white;
+}
+
+

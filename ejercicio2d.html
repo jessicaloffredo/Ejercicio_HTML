@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>P&aacute;gina HTML curso Master Full Stack es. REC010476</title>
+        </head>
+        <body>
+            <h3>Introduzca sus datos</h3>
+            <form action="mailto:jessica.loffredo.94@gmail.com" method="post">
+                <fieldset>
+                <legend>Datos personales:</legend>
+                <label for="nombre">Nombre:</label>
+                <input name="nombre" type="text" tabindex="1" id="nombre"/>
+                <br><br>
+                <label for="apellidos">Apellidos:</label>
+                <input name="apellidos" type="text" tabindex="2" id="apellidos"/>
+                <br><br>
+                <label for="direccion">Direccion:</label>
+                <input name="direccion" type="text" tabindex="3" id="direccion"/>
+                <br><br>
+                <label for="sexo">Selecionar sexo:</label><br>
+                Hombre<input name="sexo" type="radio" tabindex="4" id="sexoH"/>
+                Mujer<input name="sexo" type="radio" tabindex="5" id="sexoM"/>
+                <br><br>
+                <label for="estadocivil">Estado civil:</label>
+                <select name="estado_civil" tabindex="6">
+                    <option value="soltero">Soltero/a</option>
+                    <option value="casado">Casado/a</option>
+                </select>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Usuario</legend>
+                    <label for="nick">Nick:</label>
+                <input name="nick" type="text" tabindex="7" id="nick"/><br><br>
+                    <label for="contrasena">Contrase&ntilde;a:</label>
+                <input name="contrasena" type="password" tabindex="8" id="contrasena"/>
+                </fieldset>
+                <br>
+                <fieldset>
+                <legend>Interesado en:</legend>
+                Programacion web <input name="check_pr" type="checkbox" tabindex="9">
+                Ofimatica <input name="check_of" type="checkbox" tabindex="10">
+                Dise&ntilde;o web <input name="check_dw" type="checkbox" tabindex="11">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Observaciones Adicionales</legend>
+                    Observaciones: <textarea cols="20" row="5" tabindex="12">escriba aqui sus observaciones</textarea>
+                </fieldset>
+                
+                <br><br>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Borrar"/>
+            </form>
+        </body>
+    </html>
